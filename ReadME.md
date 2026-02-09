@@ -23,3 +23,4 @@ This is especially useful for:
 ## 🛠️ Requirements
 
 You will need the following Python libraries:
+
