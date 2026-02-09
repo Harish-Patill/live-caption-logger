@@ -28,15 +28,20 @@
 4. The raw transcript is saved in:
    - captions_log.txt
 
+---
+
 ### CLEANUP
 1. Run the terminal
    ```bash
    python cleaner.py
 2. The cleaned and deduplicated transcript will be generated in :
   - cleaned_transcript.txt
+---
 
+#### *Important: Make sure the file names mentioned here match the ones used in the code. If not, rename the files or update the code accordingly.*
    
    
    
+
 
 
