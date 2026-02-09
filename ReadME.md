@@ -1,26 +1,36 @@
-# 🎙️ Live Captions Transcript Logger + Cleaner (Windows)
+# Live Caption Logger
 
-A lightweight Python tool that captures **Windows Live Captions** in real-time, logs them into a text file, and provides a second script to automatically clean and deduplicate the transcript into readable notes.
-
-This is especially useful for:
-
-* **Online lectures**
-* **Meetings / Zoom calls**
-* **Accessibility transcription**
-* **Study note generation**
+**Live Caption Logger** is a lightweight Python tool that captures text directly from **Windows Live Captions** in real time and saves it into a text file.It works completely offline and is especially useful for logging spoken content during lectures, meetings, or video sessions.
 
 ---
 
-## 🚀 Features
+### How to Use
+####TRANSCRIBE
+1. Turn on Windows Live Captions  
+   - Settings → Accessibility → Live Captions → ON  
 
-### ✅ Real-Time Caption Logging
-* **Direct UI Integration:** Reads text directly from the Windows Live Captions window.
-* **Live Updates:** Continuously saves new spoken words into a log file.
-* **Smart Deduplication:** Prevents excessive repetition using history-based logic.
+2. Run the logger script from the project folder by running the following command in the terminal:
+    ```bash
+    python live_caption_logger.py
 
-...
+3. A tray icon will appear in the system tray.
+    - Right-click the tray icon and select:
+   -- Start Logging (begins capturing captions)
+   - When finished, right-click the same tray icon and select:
+   --Stop Logging (stops capturing)
+   - You can view the saved transcript anytime by selecting:
+   -- Open Log File
+4. The raw transcript is saved in:
+    ```bash
+   captions_log.txt
+####CLEANUP
+1. Run the terminal
+   ```bash
+   python cleaner.py
+2. The cleaned and deduplicated transcript will be generated in :
+   ```bash
+   cleaned_transcript.txt
 
-## 🛠️ Requirements
-
-You will need the following Python libraries:
-
+   
+   
+   
