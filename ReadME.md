@@ -4,8 +4,8 @@
 
 ---
 
-### How to Use
-####TRANSCRIBE
+## How to Use
+###TRANSCRIBE
 1. Turn on Windows Live Captions  
    - Settings → Accessibility → Live Captions → ON  
 
@@ -23,7 +23,7 @@
 4. The raw transcript is saved in:
     ```bash
    captions_log.txt
-####CLEANUP
+###CLEANUP
 1. Run the terminal
    ```bash
    python cleaner.py
@@ -34,3 +34,4 @@
    
    
    
+
