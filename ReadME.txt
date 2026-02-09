@@ -1,4 +1,4 @@
-# 🎙️ Live Captions Transcript Logger + Cleaner (Windows)
+#Live Captions Transcript Logger + Cleaner (Windows)
 
 A lightweight Python tool that captures **Windows Live Captions** in real time, logs them into a text file, and provides a second script to automatically clean and deduplicate the transcript into readable notes.
 
@@ -32,4 +32,5 @@ This is especially useful for:
 ---
 
 ## 📂 Project Structure
+
 
